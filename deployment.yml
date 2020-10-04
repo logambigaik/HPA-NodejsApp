@@ -6,11 +6,6 @@ metadata:
     app: nodejs
 spec:
   replicas: 2
-  strategy:
-    type: RollingUpdate
-    rollingUpdate:
-      maxUnavailable: 25%
-      maxSurge: 1
   selector:
     matchLabels:
       app: nodejs
@@ -30,4 +25,3 @@ spec:
             cpu: 100m
           requests:
             cpu: 100m
-
