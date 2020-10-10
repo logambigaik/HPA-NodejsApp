@@ -42,7 +42,6 @@
     kubectl get pods
     kubectl exec -it nodejs-deployment-76c9dffdb9-4m68x -- /bin/bash
     for i in 1 2 3 4; do while : ; do : ; done & done
-![image](https://user-images.githubusercontent.com/58024415/95016529-26fb3300-0671-11eb-91ce-e671faf10260.png)
 # Now see pods will increase slowly
     kubectl get all
 ![image](https://user-images.githubusercontent.com/58024415/95016364-36c64780-0670-11eb-8a5a-3dfbb9c438f5.png)
